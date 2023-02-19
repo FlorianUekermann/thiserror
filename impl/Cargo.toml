@@ -1,11 +1,11 @@
 [package]
-name = "thiserror-impl"
+name = "thiserror-core-impl"
 version = "1.0.38"
-authors = ["David Tolnay <dtolnay@gmail.com>"]
+authors = ["David Tolnay <dtolnay@gmail.com>", "Florian Uekermann <florian@code.green>"]
 description = "Implementation detail of the `thiserror` crate"
 edition = "2018"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/dtolnay/thiserror"
+repository = "https://github.com/FlorianUekermann/thiserror/tree/core"
 rust-version = "1.31"
 
 [lib]
