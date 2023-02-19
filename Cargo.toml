@@ -1,18 +1,18 @@
 [package]
-name = "thiserror"
+name = "thiserror-core"
 version = "1.0.49"
-authors = ["David Tolnay <dtolnay@gmail.com>"]
+authors = ["David Tolnay <dtolnay@gmail.com>", "Florian Uekermann <florian@code.green>"]
 categories = ["rust-patterns"]
 description = "derive(Error)"
 documentation = "https://docs.rs/thiserror"
 edition = "2021"
 keywords = ["error", "error-handling", "derive"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/dtolnay/thiserror"
+repository = "https://github.com/FlorianUekermann/thiserror/tree/core"
 rust-version = "1.56"
 
 [dependencies]
-thiserror-impl = { version = "=1.0.49", path = "impl" }
+thiserror-impl = { version = "=1.0.49", path = "impl", package = "thiserror-core-impl" }
 
 [dev-dependencies]
 anyhow = "1.0.73"
