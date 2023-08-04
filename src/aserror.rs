@@ -1,5 +1,5 @@
 use crate::__private::Error;
-use std::panic::UnwindSafe;
+use core::panic::UnwindSafe;
 
 #[doc(hidden)]
 pub trait AsDynError<'a>: Sealed {

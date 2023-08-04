@@ -1,3 +1,6 @@
+#[cfg(not(feature = "std"))]
+use core::error::{Error, Request};
+#[cfg(feature = "std")]
 use std::error::{Error, Request};
 
 #[doc(hidden)]
